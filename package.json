@@ -1,0 +1,10 @@
+{
+  "name": "flip-book-animation",
+  "version": "1.0.0",
+  "description": "a canvas powered flipbook animation",
+  "author": "mikestaarr",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
