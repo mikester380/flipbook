@@ -27,7 +27,7 @@ if (supportsCanvas) {
   const updateFrame = function (index) {
     const img = new Image();
     img.src = getFrame(index);
-    let aspectRatioHeight = (canvas.width * 850) / 1920;
+    let aspectRatioHeight = (canvas.width * 1080) / 1920;
     let imgPosY = canvas.height / 2 - aspectRatioHeight / 2;
 
     ctx.drawImage(img, 0, imgPosY, canvas.width, aspectRatioHeight);
